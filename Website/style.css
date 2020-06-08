@@ -1,0 +1,164 @@
+
+body {
+    font-family: Georgia, sans-serif;
+    margin: 0px;
+    background-color: rgb(235, 235, 235);
+}
+
+
+navbar {
+    float: left;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    max-width: 200px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+ul {
+    text-align: center;
+    padding: 50px;
+    list-style-type: none;
+    max-width: inherit;
+}
+
+li {
+    padding: 20px;
+    word-wrap: normal;
+    font-size: 1.25em;
+    letter-spacing: 0.2em;
+    border-top: 0px solid rgb(184, 184, 184);
+    border-bottom: 0px solid rgb(184, 184, 184);
+    transition: 0.2s;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+li:hover {
+    border-top: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+#thumb {
+    margin: 0px;
+    max-width: 40px;
+    max-height: 40px;
+}
+navbar p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+#pfp {
+    width: 150;
+    height: 160;
+    padding: 30px;
+    border-radius: 110px;
+    opacity: 1;
+}
+
+.hero {
+    height: 720px;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    left: 200px;
+}
+
+div h1 {
+    font-size: 5em;
+    color: white;
+    top: 50%;
+    left: 10px;
+    position: absolute;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+div h2 {
+    left: 5px;
+    bottom: 0;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#hero_img {
+    max-height: 150%;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    border-radius: 15px;
+    margin: 20px 40px;
+    margin-left: 250px;
+    font-size: 1.5rem;
+    padding: 5px 25px;
+    text-align: center;
+    justify-content: flex-start;
+    line-height: 1.25em;
+
+}
+.bumper {
+    color: black;
+    text-align: center;
+    margin-left: 205px;
+}
+.flex {
+    margin: 0px 15px;
+    margin-left: 220px;
+    padding: 5px 25px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    border-style: 3px solid grey;
+
+}
+.flex>div {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.75rem;
+    max-width: 30vw;
+    text-decoration: none;
+}
+.flex>div>a {
+    text-decoration: inherit;
+    color: black;
+}
+
+.flex>div.border {
+    border-right: 1px solid rgb(184, 184, 184);
+    border-left: 1px solid rgb(184, 184, 184);
+}
+#about {
+    max-width: 100%;
+    line-height: 1.2em;
+    font-size: 1rem;
+    max-height: 100%;
+}
+.oops {
+    max-width: 75%;
+    line-height: 1.2em;
+    font-size: 1.25em;
+    padding: 10vh 30vw;
+}
+.oops>h3 {
+    font-size: 5em;
+}
